@@ -1,0 +1,60 @@
+/* header start --------------------------------- */
+header,
+section {
+    padding: 70px 0;
+}
+header .title {
+    width: 400px;
+    max-width: 100%;
+    font-size: 40px;
+}
+header .desc {
+    width: 400px;
+    max-width: 100%;
+    font-size: 18px;
+}
+header .down {
+    gap: 20px;
+}
+header .img-down {
+    margin-right: -10px;
+    width: 170px;
+}
+/* about start --------------------------------- */
+#about {
+    background-image: url(../img/Layer\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#about .desc {
+    width: 400px;
+    max-width: 100%;
+    font-size: 18px;
+}
+/* services start --------------------------------- */
+#services .s-card {
+    width: 260px !important;
+    border-radius: 10px;
+}
+/* advantages start --------------------------------- */
+#advantages {
+    background-image: url(../img/Mask\ Group\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* business start --------------------------------- */
+#business .active {
+    background-color: var(--Blue);
+    color: var(--white);
+}
+/* line in footer start --------------------------------- */
+.line {
+    height: 4px;
+    border-radius: 4px;
+}
+/* questions header start --------------------------------- */
+.header {
+
+}

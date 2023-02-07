@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Somar';
+    src: url(../fonts/Somar-SemiBold.otf);
+}
+:root {
+    --Blue: #4A5CD0;
+    --Blue-o: #495bd012;
+    --Blue-two: #4A95D2;
+    --dark: #14202B;
+    --dark-two: #223140;
+    --black: #000;
+    --white: #fff;
+}
+* {
+    font-family: 'Somar';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+html {
+    direction:rtl;
+}
+a {
+    text-decoration: none;
+}
+.bg-blue {
+    background-color: var(--Blue);
+}
+.bg-blue-o {
+    background-color: var(--Blue-o);
+}
+.text-black {
+    color: var(--black) !important;
+}
+.text-blue {
+    color: var(--Blue) !important;
+}
+.position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.rounded-1 {
+    border-radius: 10px !important;
+}
+.rounded-3 {
+    border-radius: 30px !important;
+}
+.border-2 {
+    border-bottom: 2px solid !important;
+    db
+}
